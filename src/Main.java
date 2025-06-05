@@ -54,15 +54,15 @@ public class Main {
             try {
                 // 입력값 검증
                 if (!InputValidator.isPositiveInteger(totalField.getText())) {
-                    JOptionPane.showMessageDialog(frame, "총 졸업 학점은 양의 정수를 입력해주세요!");
+                    JOptionPane.showMessageDialog(frame, "총 졸업 학점은 양의 수를 입력해주세요!");
                     return;
                 }
                 if (!InputValidator.isNonNegativeInteger(majorField.getText())) {
-                    JOptionPane.showMessageDialog(frame, "전공 학점은 0 이상의 정수를 입력해주세요!");
+                    JOptionPane.showMessageDialog(frame, "전공 학점은 0 이상의 수를 입력해주세요!");
                     return;
                 }
                 if (!InputValidator.isNonNegativeInteger(electiveField.getText())) {
-                    JOptionPane.showMessageDialog(frame, "교양 학점은 0 이상의 정수를 입력해주세요!");
+                    JOptionPane.showMessageDialog(frame, "교양 학점은 0 이상의 수를 입력해주세요!");
                     return;
                 }
 
@@ -94,15 +94,15 @@ public class Main {
             try {
                 // 입력값 검증
                 if (!InputValidator.isNonNegativeInteger(electiveForm.credit1.getText())) {
-                    JOptionPane.showMessageDialog(frame, "1학점 과목 수는 0 이상의 정수를 입력해주세요!");
+                    JOptionPane.showMessageDialog(frame, "1학점 과목 수는 0 이상의 수를 입력해주세요!");
                     return;
                 }
                 if (!InputValidator.isNonNegativeInteger(electiveForm.credit2.getText())) {
-                    JOptionPane.showMessageDialog(frame, "2학점 과목 수는 0 이상의 정수를 입력해주세요!");
+                    JOptionPane.showMessageDialog(frame, "2학점 과목 수는 0 이상의 수를 입력해주세요!");
                     return;
                 }
                 if (!InputValidator.isNonNegativeInteger(electiveForm.credit3.getText())) {
-                    JOptionPane.showMessageDialog(frame, "3학점 과목 수는 0 이상의 정수를 입력해주세요!");
+                    JOptionPane.showMessageDialog(frame, "3학점 과목 수는 0 이상의 수를 입력해주세요!");
                     return;
                 }
 
@@ -126,15 +126,15 @@ public class Main {
                 if (!majorInputAdded) {
                     // 입력값 검증
                     if (!InputValidator.isNonNegativeInteger(majorForm.credit1.getText())) {
-                        JOptionPane.showMessageDialog(frame, "1학점 과목 수는 0 이상의 정수를 입력해주세요!");
+                        JOptionPane.showMessageDialog(frame, "1학점 과목 수는 0 이상의 수를 입력해주세요!");
                         return;
                     }
                     if (!InputValidator.isNonNegativeInteger(majorForm.credit2.getText())) {
-                        JOptionPane.showMessageDialog(frame, "2학점 과목 수는 0 이상의 정수를 입력해주세요!");
+                        JOptionPane.showMessageDialog(frame, "2학점 과목 수는 0 이상의 수를 입력해주세요!");
                         return;
                     }
                     if (!InputValidator.isNonNegativeInteger(majorForm.credit3.getText())) {
-                        JOptionPane.showMessageDialog(frame, "3학점 과목 수는 0 이상의 정수를 입력해주세요!");
+                        JOptionPane.showMessageDialog(frame, "3학점 과목 수는 0 이상의 수를 입력해주세요!");
                         return;
                     }
 
